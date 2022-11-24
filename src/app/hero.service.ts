@@ -11,7 +11,7 @@ import { catchError, map, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class HeroService {
-  private heroesUrl = 'api/heroes';
+  private heroesUrl = 'https://localhost:7179/api/Heroes';
 
   
   httpOptions = {
